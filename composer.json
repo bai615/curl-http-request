@@ -1,0 +1,21 @@
+{
+    "name": "bai615/curl-http-request",
+    "description": "CURL HTTP Request Tools",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bai615",
+            "email": "baihua_2011@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "bai615\\": "./src"
+        }
+    }
+}
